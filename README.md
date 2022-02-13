@@ -1,9 +1,9 @@
 ## Prerequisite Knowledge
 
 - [ ] **Know about your language:**
-    - [ ] [JDK, JVM and JRE](https://www.youtube.com/watch?v=BXFHuaQNnLo)
-    - [ ] [How Java works](https://www.youtube.com/watch?v=fhfVkPpIwjk)
-    - [ ] [How JVM works](https://www.youtube.com/watch?v=ZBJ0u9MaKtM)
+    - [x] [JDK, JVM and JRE](https://www.youtube.com/watch?v=BXFHuaQNnLo)
+    - [x] [How Java works](https://www.youtube.com/watch?v=fhfVkPpIwjk)
+    - [x] [How JVM works](https://www.youtube.com/watch?v=ZBJ0u9MaKtM)
     - [ ] [Garbage Collector](https://www.youtube.com/watch?v=UnaNQgzw4zY)
     - [ ] [JIT compiler](https://www.youtube.com/watch?v=GXUiEouK7DM)
     - [ ] [Watch with Popcorn](https://www.youtube.com/watch?v=JLFjY6Ixct8)
