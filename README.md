@@ -56,58 +56,58 @@
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - ### Linked Lists
-    - [ ] [Linked List Implementation part 1](https://www.youtube.com/watch?v=SMIq13-FZSE)
-    - [ ] [Linked List Implementation part 2](https://www.youtube.com/watch?v=AeqXFjCUcQM)
-    - [ ] implement:
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [x] [Linked List Implementation part 1](https://www.youtube.com/watch?v=SMIq13-FZSE)
+    - [x] [Linked List Implementation part 2](https://www.youtube.com/watch?v=AeqXFjCUcQM)
+    - [x] implement:
+        - [x] size() - returns number of data elements in list
+        - [x] empty() - bool returns true if empty
+        - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [x] push_front(value) - adds an item to the front of the list
+        - [x] pop_front() - remove front item and return its value
+        - [x] push_back(value) - adds an item at the end
+        - [x] pop_back() - removes end item and returns its value
+        - [x] front() - get value of front item
+        - [x] back() - get value of end item
+        - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [x] erase(index) - removes node at given index
+        - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [x] reverse() - reverses the list
+        - [x] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
 
 - ### Stack
-    - [ ] learn About Stacks
-    - [ ] Implement Stack using array
+    - [x] learn About Stacks
+    - [x] Implement Stack using array
         - push(value)
         - pop()
         - top()
         - empty()
-    - [ ] Implement stack using two queues
+    - [x] Implement stack using two queues
         - push(value)
         - pop()
         - top()
         - empty()
 
 - ### Queue
-    - [ ] learn About Queue
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] Implement using linked-list, with tail pointer:
+    - [x] learn About Queue
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using fixed-sized array:
+    - [x] Implement using fixed-sized array:
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
-    - [ ] Implement stack using two queues
+    - [x] Implement stack using two queues
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
-    - [ ] Cost:
+    - [x] Cost:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])
@@ -115,13 +115,13 @@
         - empty: O(1) (linked list and array)
 
 - ### Hash table
-    - [ ] [How hashmap works in java](http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html)
-      - [ ] Videos:
-        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
-        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [x] [How hashmap works in java](http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html)
+      - [x] Videos:
+        - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [x] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [x] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 
-    - [ ] implement with array using linear probing
+    - [x] implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
         - exists(key)
